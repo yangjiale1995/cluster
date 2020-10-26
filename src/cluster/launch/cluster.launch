@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="cluster" name="cluster" type="cluster_node" output="screen">
+		<param name="lidar_height" value="1.4"/>
+		<param name="cluster_tolerance" value="0.5"/>
+		<param name="min_cluster_size" value="20"/>
+		<param name="plane_tolerance" value="0.2"/>
+	</node>
+</launch>
